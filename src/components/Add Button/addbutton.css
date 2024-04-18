@@ -1,0 +1,18 @@
+.add_button{
+    border: none;
+    background-color: var(--primary);
+    padding: 10px 30px;
+    border-radius: 1000px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.add_button:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
